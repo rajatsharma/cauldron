@@ -1,0 +1,33 @@
+{
+  "name": "initiate",
+  "version": "1.0.0",
+  "author": "rajatsharma",
+  "publisher": "rajatsharma",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vizier dev",
+    "build": "vizier build",
+    "package": "vsce package"
+  },
+  "main": "out/extension.js",
+  "engines": {
+    "vscode": "^1.22.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:initiate.hello"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "initiate.hello",
+        "title": "Initiate: Hello"
+      }
+    ]
+  },
+  "devDependencies": {
+    "engine-vizier": "^0.1.1-0"
+  }
+}
