@@ -1,5 +1,5 @@
 {
-  "name": "initiate",
+  "name": "cauldron",
   "version": "1.0.0",
   "author": "rajatsharma",
   "publisher": "rajatsharma",
@@ -17,13 +17,13 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:initiate.hello"
+    "onCommand:cauldron.hello"
   ],
   "contributes": {
     "commands": [
       {
-        "command": "initiate.hello",
-        "title": "Initiate: Hello"
+        "command": "cauldron.hello",
+        "title": "Cauldron: Hello"
       }
     ]
   },
