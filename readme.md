@@ -1,4 +1,4 @@
-## Initiate ✨
+## Cauldron 🧪
 
 VSCode Extension template
 
