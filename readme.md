@@ -1,10 +1,18 @@
-## Cauldron 🧪
+<h1 align="center">Cauldron 🧪</h1>
 
-Template for VSCode Extension Development
+<p align="center">
+  <a href="https://code.visualstudio.com/api/get-started/your-first-extension" target="_blank">
+    <img alt="VSCode" src="https://img.shields.io/badge/-VSCode-007ACC?style=flat-square&logo=visual-studio-code">
+  </a>
+  <a href="https://www.typescriptlang.org/" target="_blank">
+    <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript" />
+  </a>
+  <a href="https://eslint.org/" target="_blank">
+    <img alt="Eslint" src="https://img.shields.io/badge/-Eslint-4B32C3?style=flat-square&logo=eslint" />
+  </a>
+</p>
 
-![VSCode](https://img.shields.io/badge/-VSCode-007ACC?style=flat-square&logo=visual-studio-code)
-![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript)
-![Eslint](https://img.shields.io/badge/-Eslint-4B32C3?style=flat-square&logo=eslint)
+<h5 align="center">Template for VSCode Extension Development</h5>
 
 #### 🧰 Prerequisites
 
@@ -34,4 +42,15 @@ Build the extension in prod mode.
 
 Create vsix file for the extension.
 
-[![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+### 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/rajatsharma/wingman/issues). You can also take a look at the [contributing guide](https://github.com/rajatsharma/wingman/blob/master/CONTRIBUTING.md).
+
+### 🙋‍♀️ Show your support
+
+Give a ⭐️ if this project helped you!
+
+---
+
+Copyright © 2020 [Rajat Sharma](https://github.com/rajatsharma).<br />
+This project is [MIT](https://github.com/rajatsharma/wingman/blob/master/LICENSE) licensed.
