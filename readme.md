@@ -14,13 +14,13 @@
 
 <h5 align="center">Template for VSCode Extension Development</h5>
 
-#### 🧰 Prerequisites
+### 🧰 Prerequisites
 
 - `node`
 - `yarn` 
 - `vscode`
 
-#### 🚀 Get Started
+### 🚀 Get Started
 
 - Install dependencies, cauldron comes with eslint, Typescript and [vsce](https://github.com/microsoft/vscode-vsce) installed.
 
@@ -28,7 +28,7 @@
 $ yarn
 ```
 
-#### 🤘 List of Commands
+### 🤘 List of Commands
 
 ##### `npm start` or `yarn start`
 
@@ -42,11 +42,11 @@ Build the extension in prod mode.
 
 Create vsix file for the extension.
 
-### 🤝 Contributing
+#### 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/rajatsharma/wingman/issues). You can also take a look at the [contributing guide](https://github.com/rajatsharma/wingman/blob/master/CONTRIBUTING.md).
 
-### 🙋‍♀️ Show your support
+#### 🙋‍♀️ Show your support
 
 Give a ⭐️ if this project helped you!
 
