@@ -1,6 +1,10 @@
 ## Cauldron 🧪
 
-VSCode Extension template
+Template for VSCode Extension Development
+
+![VSCode](https://img.shields.io/badge/-VSCode-007ACC?style=flat-square&logo=visual-studio-code)
+![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript)
+![Eslint](https://img.shields.io/badge/-Eslint-4B32C3?style=flat-square&logo=eslint)
 
 #### 🧰 Prerequisites
 
@@ -10,7 +14,7 @@ VSCode Extension template
 
 #### 🚀 Get Started
 
-- Install dependencies, cauldron comes with Webpack, eslint, Typescript and [vsce](https://github.com/microsoft/vscode-vsce) installed.
+- Install dependencies, cauldron comes with eslint, Typescript and [vsce](https://github.com/microsoft/vscode-vsce) installed.
 
 ```sh
 $ yarn
