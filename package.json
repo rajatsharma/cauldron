@@ -13,6 +13,9 @@
   "engines": {
     "vscode": "^1.22.0"
   },
+  "eslintConfig": {
+    "extends": "x"
+  },
   "categories": [
     "Other"
   ],
@@ -28,18 +31,9 @@
     ]
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.9.0",
-    "@typescript-eslint/parser": "^5.9.0",
-    "eslint": "^8.6.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-prettier": "^4.0.0",
-    "prettier": "^2.5.1",
+    "eslint-config-x": "https://github.com/rajatsharma/eslint-config-x",
     "typescript": "^4.5.4",
     "vsce": "^2.6.3",
     "vscode": "^1.1.37"
-  },
-  "dependencies": {
-    "config": "../config/"
   }
 }
