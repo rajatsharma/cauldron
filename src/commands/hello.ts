@@ -1,11 +1,11 @@
-import vscode from 'vscode';
+import vscode from "vscode";
 
 function handler(): void {
-  vscode.window.showInformationMessage('Hello Visual Studio Code!');
+  vscode.window.showInformationMessage("Hello Visual Studio Code!");
 }
 
 const command: CommandModule = {
-  identifier: 'hello',
+  identifier: "hello",
   handler,
 };
 

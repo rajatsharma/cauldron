@@ -5,9 +5,9 @@
   "publisher": "rajatsharma",
   "license": "MIT",
   "scripts": {
-    "dev": "vizier dev",
-    "build": "vizier build",
-    "package": "vsce package"
+    "dev": "vsbuild watch",
+    "build": "vsbuild prepublish",
+    "prepare": "yarn build && vsce package && code --install-extension ./*.vsix && rm -f ./*vsix"
   },
   "main": "out/extension.js",
   "engines": {
@@ -28,6 +28,15 @@
     ]
   },
   "devDependencies": {
-    "engine-vizier": "^0.1.1-0"
+    "@typescript-eslint/eslint-plugin": "^5.9.0",
+    "@typescript-eslint/parser": "^5.9.0",
+    "eslint": "^8.6.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.4",
+    "vsce": "^2.6.3",
+    "vscode": "^1.1.37"
   }
 }
