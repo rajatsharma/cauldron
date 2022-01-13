@@ -1,4 +1,4 @@
-<h1 align="center">Cauldron 🧪</h1>
+<h1 align="center">Project Cauldron 🧪</h1>
 
 <p align="center">
   <a href="https://code.visualstudio.com/api/get-started/your-first-extension" target="_blank">
@@ -17,7 +17,7 @@
 ### 🧰 Prerequisites
 
 - `node`
-- `yarn` 
+- `yarn`
 - `vscode`
 
 ### 🚀 Get Started
