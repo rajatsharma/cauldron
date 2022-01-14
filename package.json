@@ -7,9 +7,10 @@
   "scripts": {
     "dev": "vsbuild watch",
     "build": "vsbuild prepublish",
-    "prepare": "yarn build && vsce package && code --install-extension ./*.vsix && rm -f ./*vsix"
+    "package": "yarn build && vsce package -o vizier.vsix",
+    "prepare": "yarn package && code --install-extension ./vizier.vsix && rm -f ./vizier.vsix"
   },
-  "main": "out/extension.js",
+  "main": "out/main.js",
   "engines": {
     "vscode": "^1.22.0"
   },
